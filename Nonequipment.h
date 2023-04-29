@@ -1,0 +1,5 @@
+class Nonequipment {
+    public:
+        
+    private:
+};
