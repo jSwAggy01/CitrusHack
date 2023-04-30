@@ -1,5 +1,5 @@
+#include <fstream>
 #include "Exercise.h"
-#include "fstream"
 
 class Calisthenics : public Exercise 
 {
@@ -17,17 +17,15 @@ class Calisthenics : public Exercise
                 return 1;
             }
 
-            while (fin >> workout >> level >> description) 
+            while (fin >> workout >> lvl >> description) 
             {
-                if (level == lvl && ) 
+                if (level == lvl && muscle == description) 
                 {
                     PrintWorkout();
                     return;
                 }
             }
+
+            fin.close();
         }
-    private:
-        string eq;
-        int lvl;
-        string musc;
 };
