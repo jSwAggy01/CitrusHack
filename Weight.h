@@ -1,4 +1,4 @@
-class Nonequipment {
+class Weight {
     public:
         
     private:
