@@ -14,6 +14,10 @@ Goal:
     category/exercise which includes: a description of the exercise, the fitness level advised to
     perform the exercise, etc (other metadata TBD). 
 
+    The user will then have the option to select exercises based on their needs, goals, and abilities.
+    A future feature will include an AI that selects and curates a workout regimen based on the user's
+    responses.
+
 Visualization:
 
     PUSH
