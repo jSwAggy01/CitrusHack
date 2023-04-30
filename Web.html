@@ -1,0 +1,107 @@
+<DOCTYPE html>
+<html lang="en">
+<link rel="webstylesheet" type="text/css" href="Web.css" media="screen" />
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    td {
+        height: 30px;
+        text-align: center;
+        vertical-align: middle;
+    }
+</style>
+
+<head>
+    <title>Gym Exersices</title>
+</head>
+
+<body style="border:black;border-width:5px;border-style:solid">
+    <tr>
+        <td>
+            <h1>
+                <center>Gym Exersices</center>
+            </h1>
+        </td>
+    </tr>
+                <form class="equipment">
+                    
+                    <div class="form-group">
+                        <label for="equipmentlvl">What equipment do you have access to?</label>
+                        <select class="form-control" id="equipmentlvl">
+                            <option value="yes" selected>Select an option</option>
+                            <option value="none">No equipment</option>
+                            <option value="moderate">Moderate equipment</option>
+                            <option value="full">Gym access</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group" id="goalDiv">
+                        <label for="setGoal">What type of body are you trying to achieve?</label>
+                        <select class="form-control" id="setGoal">
+                            <option selected>Choose your goal</option>
+                            <option>Slim Fit</option>
+                            <option>Muscular</option>
+                            <option>Bodybuilder</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group" id="noEquipDiv">
+                        <label for="noEquipExercise">Cardio or Calisthenics?</label>
+                        <select class="form-control" id="noEquipExercise">
+                            <option selected value="null">Choose one of the following</option>
+                            <option value="cardio">Cardio</option>
+                            <option value="calisthenics">Calisthenics</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group" id="calisDiv">
+                        <label for="calisExercises">What muscle group are you trying to work?</label>
+                        <select class="form-control" id="calisExercises">
+                            <option value="null" selected>Choose one of the muscle groups</option>
+                            <option value="back">Back</option>
+                            <option value="chest">Chest</option>
+                            <option value="arms">Arms</option>
+                            <option value="core">Core</option>
+                            <option value="legs">Legs</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group" id="moderateEquipDiv">
+                        <label for="modEquipExercise">Choose one of the following:</label>
+                        <select class="form-control" id="modEquipExercise">
+                            <option value="null" selected>Choose one of the muscle groups</option>
+                            <option value="push">Push</option>
+                            <option value="pull">Pull</option>
+                            <option value="core">Core</option>
+                            <option value="legs">Legs</option>
+                        </select>
+                    </div>
+
+                    <!-- <div class="form-group" id="modPushDiv">
+                        <label for="modPushExercise">Choose push exercise:</label>
+                        <select class="form-control" id="modPushExercise">
+                            <option value="dumbbell">Dumbbells</option>
+                            <option value="pushups">Push-Ups</option>
+                            <option value="barbells">Barbells</option>
+                        </select>
+                    </div> -->
+
+
+                    <div class="form-group" id="gymEquipDiv">
+                        <label for="gymEquipExercise">Choose on of the following:</label>
+                        <select class="form-control" id="gymEquipExercise">
+                            <option value="null">Choose one of the muscle groups</option>
+                            <option value="push">Push</option>
+                            <option value="pull">Pull</option>
+                            <option value="core">Core</option>
+                            <option value="legs">Legs</option>
+                        </select>
+                    </div>
+                </form>
+                
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+<script src="Webscript.js"></script>
+</body>
+</html>
+</DOCTYPE>
