@@ -1,5 +1,9 @@
 #include <iostream>
 #include <string>
+#include "Calisthenics.h"
+#include "Cardio.h"
+#include "Weight.h"
+#include "Machine.h"
 <<<<<<< HEAD
 
 using namespace std;

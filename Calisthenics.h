@@ -1,5 +1,7 @@
 #include <fstream>
+#pragma once
 #include "Exercise.h"
+
 
 class Calisthenics : public Exercise 
 {
