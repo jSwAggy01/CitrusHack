@@ -6,8 +6,8 @@ class Exercise
 {
     public:
         //output workout name, level, desc
-        Exercise() : equipment("none"), muscle("none") {}
-        Exercise(string eq, string musc) : equipment(eq), muscle(musc) {}
+        Exercise() : equipment("none"), level(0), muscle("none") {}
+        Exercise(string eq, int lvl, string musc) : equipment(eq), level(lvl), muscle(musc) {}
 
         void PrintWorkout() const {
             cout << "Workout: " << workout << endl;
@@ -17,8 +17,10 @@ class Exercise
 
     private:
         string equipment;
+        int lvl;
         string muscle;
 
+    protected:
         string workout;
         int level;
         string description;

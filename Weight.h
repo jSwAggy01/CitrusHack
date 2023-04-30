@@ -1,5 +1,0 @@
-class Weight {
-    public:
-        
-    private:
-};

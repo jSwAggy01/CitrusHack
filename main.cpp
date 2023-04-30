@@ -11,15 +11,37 @@ using namespace std;
 void Prompt() 
 {
     string eq;
+    int lvl;
     string musc;
 
     cout << "What equipments u got cuh?" << endl;
     cout << "Calisthenics | Cardio | Weight | Machine" << endl;
     cin >> eq;
+    cout << "What level u at?" << endl;
+    cout << "Level: 1 | 2 | 3" << endl;
+    cin >> lvl;
     cout << "What muscle u trynna work on?" << endl;
     cin >> musc;
 
-    Exercise workOut1 = new Exercise(eq, musc);
+    //Exercise workOut1 = new Exercise(eq, lvl, musc);
+    if (eq == "Calisthenics") 
+    {
+        Calisthenics workout = new Calisthenics(lvl, musc);
+    }
+
+    else if (eq == "Cardio") 
+    {
+        Cardio workout = new Workout(lvl, musc);
+    }
+
+    else if (eq == "Weight") 
+    {
+        Weight workout = new Workout(lvl, musc);
+    }
+
+    else if (eq == "Machine") {
+        Machine workout = new Machine(lvl, musc);
+    }
 }
 
 int main()

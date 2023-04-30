@@ -7,7 +7,7 @@ class Equipment: public Exercise
         {
             return list;
         }
-    protected
+    protected:
         int list[];
     
     
